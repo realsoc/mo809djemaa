@@ -1,0 +1,2 @@
+1. siga as regras do arquivo gitRepoStructure.txt para adequar a estrutura de diretórios do seu repo de MO809.
+2. siga as regras do arquivo bibRules.txt para ajustar a sua Bibliografia.

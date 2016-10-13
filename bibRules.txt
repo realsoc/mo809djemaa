@@ -1,0 +1,57 @@
+Name the pdf of your papers according to the following instructions:
+0. your bibtex entry file must be named: <your-last-surname>.bib Example: buzato.bib
+1. each pdf file of Bibliografia must be named <name-of-first-author><last-two-digits-of-publication-year>[<letter> || empty].pdf
+   letter ::= {a|b|...|z}.
+2. Every bibtex entry must have the following fields:
+   Owner = {<surname of person that collected the paper>}
+   Note  = {S<seminar that referenced/used the paper>}
+
+For exemple, contents of buzato.bib is:
+   @Article{raynal05b,
+  Title                    = {Wait-free computing: an introductory lecture },
+  Author                   = {Michel Raynal},
+  Journal                  = {Future Generation Computer Systems },
+  Year                     = {2005},
+  Number                   = {5},
+  Pages                    = {655 - 663},
+  Volume                   = {21},
+  Doi                      = {http://dx.doi.org/10.1016/j.future.2004.05.005},
+  File                     = {:papers/raynal05b.pdf:PDF},
+  ISSN                     = {0167-739X},
+  Keywords                 = {Atomic register},
+  Timestamp                = {2013.09.25},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0167739X04000767},
+  Owner                    = {buzato},
+  Note			   = {S1}
+}
+
+@Article{raynal05a,
+  Title                    = {A short introduction to failure detectors for asynchronous distributed systems},
+  Author                   = {Raynal, Michel},
+  Journal                  = {SIGACT News},
+  Year                     = {2005},
+  Number                   = {1},
+  Pages                    = {53--70},
+  Volume                   = {36},
+  Address                  = {New York, NY, USA},
+  Doi                      = {http://doi.acm.org/10.1145/1052796.1052806},
+  File                     = {:/Users/buzato/bibliobase/papers/raynal05.pdf:PDF},
+  ISSN                     = {0163-5700},
+  Publisher                = {ACM},
+  Timestamp                = {2009.08.06},
+  Owner                    = {buzato},
+  Note			   = {S2}
+}
+
+If your Bibliografia direcotry also contains the two pdfs mentioned above then
+listing the contents of the directory would result:
+% cd Bibliografia %% <inside your git repo>
+% ls 
+<your-surname>.bib
+raynal05a.bib
+raynal05b.bib
+
+
+
+
+

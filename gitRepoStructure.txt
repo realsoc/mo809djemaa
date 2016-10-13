@@ -1,0 +1,19 @@
+The structure of your git repo must adhere to the following setup of directories:
+<root diretory>
+   |
+   -> Bibliography
+   -> Lists
+       |
+       -> L1 contains <ra>-L01.pdf %% the abstract you have produced.
+       -> L2
+       -> ...
+   -> Seminars
+       |
+       -> S1 contains the pdf or ppt of your first seminar named <ra>-S01.pdf
+       -> S2 
+       -> S3
+       -> S4
+       -> S5
+
+     
+     
