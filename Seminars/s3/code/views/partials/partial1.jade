@@ -1,0 +1,5 @@
+ng-map(center="[48.84, 2.38]" zoom="12")
+	custom-marker(html-ng-non-bindable="true" ng-repeat="station in stations |limitTo:30" position="[{{station.lat}},{{station.lon}}]" on-mouseover="mouseover({{station.number}},{{station.bike}},{{station.free}})" on-mouseout="mouseout({{station.number}},{{station.bike}},{{station.free}})")
+		div(id="div-{{station.number}}") 
+			div {{station.name}}
+div(id="show")
