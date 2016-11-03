@@ -1,0 +1,5 @@
+!/Seminars/S3/code/node_modules
+/Seminars/S3/code/node_modules/*
+!/Seminars/S3/code/node_modules/config
+/Seminars/S3/code/public/bower_components
+
